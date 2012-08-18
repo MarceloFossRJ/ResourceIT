@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  month_salary: 9.99
+  base_year: 1
+  start_date: 2012-08-18
+  employee_id: 1
+
+two:
+  month_salary: 9.99
+  base_year: 1
+  start_date: 2012-08-18
+  employee_id: 1

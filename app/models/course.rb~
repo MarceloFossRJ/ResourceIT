@@ -1,0 +1,7 @@
+class Course < ActiveRecord::Base
+  belongs_to :unity
+  belongs_to :institution
+  has_many :trainnings
+
+ attr_accessible :description, :institution_id, :motivation, :name, :workload, :workload_unit_id
+end

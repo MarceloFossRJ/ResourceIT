@@ -1,0 +1,7 @@
+class CompanyHoliday < ActiveRecord::Base
+  attr_accessible :country_id, :day, :description
+
+  validates_presence_of :day, :country_id
+
+ 
+end

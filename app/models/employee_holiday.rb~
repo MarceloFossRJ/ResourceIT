@@ -1,0 +1,3 @@
+class EmployeeHoliday < ActiveRecord::Base
+  attr_accessible :employee_id, :end, :start_date
+end

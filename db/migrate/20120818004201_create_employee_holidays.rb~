@@ -1,0 +1,11 @@
+class CreateEmployeeHolidays < ActiveRecord::Migration
+  def change
+    create_table :employee_holidays do |t|
+      t.date :start_date
+      t.date :end
+      t.integer :employee_id
+
+      t.timestamps
+    end
+  end
+end

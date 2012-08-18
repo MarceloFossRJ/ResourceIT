@@ -1,0 +1,4 @@
+class TravelType < ActiveRecord::Base
+  has_many :travel_periods
+  attr_accessible :name
+end

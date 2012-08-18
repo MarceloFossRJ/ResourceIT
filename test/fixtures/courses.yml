@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  workload: 1
+  workload_unit_id: 1
+  institution_id: 1
+  description: MyText
+  motivation: MyText
+
+two:
+  name: MyString
+  workload: 1
+  workload_unit_id: 1
+  institution_id: 1
+  description: MyText
+  motivation: MyText

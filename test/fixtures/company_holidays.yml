@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  day: 2012-08-17
+  description: MyString
+  country_id: 1
+
+two:
+  day: 2012-08-17
+  description: MyString
+  country_id: 1
