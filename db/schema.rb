@@ -117,12 +117,12 @@ ActiveRecord::Schema.define(:version => 20120818113251) do
   end
 
   create_table "salaries", :force => true do |t|
-    t.decimal  "month_salary", :precision => 10, :scale => 0
+    t.decimal  "month_salary"
     t.integer  "base_year"
     t.date     "start_date"
     t.integer  "employee_id"
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "trainnings", :force => true do |t|
